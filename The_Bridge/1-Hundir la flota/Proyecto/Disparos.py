@@ -174,7 +174,7 @@ def comprobar_coords(tablero:tuple[int, int], casilla:tuple[int, int]):
     # Índice fuera de rango (tablero 10x10)
     for ind in casilla:
         if ind < 0 or ind > 9:
-            print('Coordenadas fuera del tablero. Int')
+            print('El disparo a terminado en Narnia. Int')
             return False
     
     # Casilla previamente disparada
