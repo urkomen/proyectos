@@ -28,6 +28,8 @@ def mostrar_tablero(tablero:tuple[int, int]):
     print('TABLERO DE USUARIO')
     print('-'*30)
     dibujar_tablero(tablero)
+    print('-'*30)
+    
     
     
 def mostrar_tableros2(tablero1:tuple[int, int], tablero2:tuple[int, int]):
@@ -38,6 +40,7 @@ def mostrar_tableros2(tablero1:tuple[int, int], tablero2:tuple[int, int]):
     print('-'*30)
     print('TABLERO DEL USUARIO')
     dibujar_tablero(tablero2)
+    print('-'*30)
     
 #URKO - Borrar tras pruebas
 def mostrar_tableros3(tablero1:tuple[int, int], tablero2:tuple[int, int], tablero3:tuple[int, int]):
@@ -51,6 +54,7 @@ def mostrar_tableros3(tablero1:tuple[int, int], tablero2:tuple[int, int], tabler
     print('-'*30)
     print('TABLERO OCULTO MÁQUINA')
     dibujar_tablero(tablero3)
+    print('-'*30)
     
     
 def dibujar_tablero(tablero:tuple[int, int]):

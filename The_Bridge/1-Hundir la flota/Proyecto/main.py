@@ -1,4 +1,4 @@
-import Tablero
+import Tablero as tb
 import Barcos
 import Fases_del_juego as fdj
 # Tablero.path.append("./Proyecto")
@@ -14,6 +14,10 @@ def main():
     # fdj.configuracion_hundir(tablero_usu)
     # Tablero del PC
     barcos_usu, barcos_PC = fdj.configuracion_hundir(tablero_usu, tablero_PC)
+    
+    #urko - pruebas
+    # tb.mostrar_tablero(tablero_PC)
+    # input()
     
     # Se escoge turno de inicio
     turno = fdj.quien_empieza()

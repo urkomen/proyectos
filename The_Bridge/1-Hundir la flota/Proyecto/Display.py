@@ -1,4 +1,3 @@
-
 import Tablero as tb
 import time
 import os
