@@ -42,7 +42,6 @@ def disparos_usu(tablero1, tablero2, tablero3, barcos_PC):
             barcos_PC[ind]['hundido'] = True
             tb.mostrar_tableros2(tablero2, tablero3)
             print("Barco hundido!")
-            print("Aquí1")
             time.sleep(1)
         
         
