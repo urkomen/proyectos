@@ -160,8 +160,6 @@ def barco_hundido(tablero:tuple[int, int], barcos, ind):
     for coord in barcos[ind]['coords']:
         fil = coord[0]
         col = coord[1]
-        #urko
-        # print(coord)
         if tablero[fil][col] not in (tb.TOCADO, tb.HUNDIDO):
             return False
     return True

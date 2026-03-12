@@ -102,6 +102,8 @@ def turnos_hundir(tablero_usu:tuple[int, int], tablero_PC:tuple[int, int], table
         if turno%2 == 0: # Turnos pares son del usuario
             tb.mostrar_tableros2(tablero_PCoculto, tablero_usu)
             print('TURNO DE USUARIO')
+            #urko
+            # print(barcos_PC)
             fin, barcos_PC = disp.disparos_usu(tablero_PC, tablero_PCoculto, tablero_usu, barcos_PC)
         else: # Turnos impares son de la máquina
             tb.mostrar_tableros2(tablero_PCoculto, tablero_usu)
